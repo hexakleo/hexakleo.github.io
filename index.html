@@ -17,18 +17,14 @@ resume: cursor, date, responsive, dark mode.
          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
          rel="stylesheet">
       <link rel="stylesheet" href="css/main.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
    </head>
 
    <body>
       <div id="cursor"></div>
-      
-      <a href="https://github.com/hexakleo" target="_blank" class="github-link">
-         <i class="fab fa-github"></i>
-      </a>
 
       <div class="enter-screen">
          <div class="language-selector">
+            <button data-lang="en" class="lang-btn">English</button>
             <button data-lang="es" class="lang-btn">Español</button>
          </div>
          <span class="enter-text">ENTER <i
@@ -36,20 +32,6 @@ resume: cursor, date, responsive, dark mode.
       </div>
 
       <main>
-         <div class="social-controls">
-            <a href="https://github.com/hexakleo" target="_blank" class="social-link">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://twitter.com/hexakleo" target="_blank" class="social-link">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="https://linkedin.com/in/hexakleo" target="_blank" class="social-link">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <button type="button" class="info-btn" aria-label="Show information">
-                <i class="fas fa-info-circle"></i>
-            </button>
-         </div>
          <div class="logo-container">
             <div class="text-block">
                <h1>IN</h1>
@@ -58,56 +40,12 @@ resume: cursor, date, responsive, dark mode.
                <h3>(HK)</h3>
             </div>
          </div>
-         <div class="projects-section">
-            <!--dynamically-->
-         </div>
-         <div class="popup">
-            <div class="popup-content">
-                <span class="close-popup">&times;</span>
-                <h2>About Hexakleo</h2>
-                <p>Your information about Hexakleo here...</p>
-            </div>
-         </div>
-         <div class="info-popup">
-            <div class="info-content">
-                <span class="close-info">&times;</span>
-                <h3>About Me</h3>
-                <div class="info-details">
-                    <p>Hexakleo, known as HK on GitHub, is a developer with a strong interest in programming and cybersecurity. Throughout his career, he has contributed to various open-source projects, demonstrating his commitment to the tech community.</p></html>                    <p>One of his most notable projects is "skuld," an advanced tool written in Go that functions as a next-generation "stealer." This tool is designed to extract information from applications such as Discord, Chromium-based and Firefox-based browsers, cryptocurrency wallets, and more, from every user on every disk. It's important to note that this project is a proof of concept and is provided solely for educational purposes.</p>                    <p>In addition to "skuld," Hexakleo has worked on other projects that reflect his interest in security and programming. His GitHub profile showcases a variety of repositories ranging from development tools to contributions to other open-source initiatives.</p>                    <p>Through his activity on GitHub, Hexakleo has built a community of followers and collaborators who value his expertise and dedication to the world of software and cybersecurity. His focus on educational and open-source projects highlights his commitment to continuous learning and improving the tech community at large.</p>                    <p>Feel free to check out my projects and get in touch!</p>                </div>            </div>         </div>         
-         <div class="info-popup" id="infoPopup">
-            <div class="info-content">
-                <span class="close-info" id="closeInfo">&times;</span>
-                <h3>About This Project</h3>
-                <div class="info-details">
-                    <p>Welcome to my portfolio! This project showcases my work and expertise in web development. The site features modern design principles, responsive layouts, and interactive elements.</p>
-                    <p>Technologies used:</p>
-                    <ul>
-                        <li>HTML5 & CSS3</li>
-                        <li>JavaScript</li>
-                        <li>Custom animations</li>
-                        <li>Responsive design</li>
-                    </ul>
-                </div>
-            </div>
-         </div>
-         <div class="info-popup">
-            <div class="info-content">
-                <span class="close-info">&times;</span>
-                <h3>Professional Profile</h3>
-                <div class="info-details">
-                    <p>As a distinguished software engineer specializing in cybersecurity and system architecture, I focus on developing innovative solutions that advance the field of secure computing. My expertise encompasses both low-level system programming and high-level application security.</p>
-                    
-                    <p>In my role as a GitHub Developer Program member, I maintain a portfolio of strategic projects that demonstrate advanced concepts in system security and software architecture. A notable example is the Skuld framework, an educational platform developed in Go that illustrates modern security concepts and system interactions.</p>
-                    
-                    <p>My development philosophy centers on creating robust, well-documented solutions that serve both educational and practical purposes. Through my work, I aim to contribute meaningful advancements to the cybersecurity community while maintaining the highest standards of professional integrity.</p>
-                    
-                    <p>My GitHub repository serves as a technical portfolio, showcasing methodologies in secure software development and system architecture design. I welcome collaboration opportunities and professional discourse in these domains.</p>
-                </div>
-            </div>
-         </div>
-         <div class="stats-info">
-            <span class="stat"><i class="fas fa-star"></i> ${repo.stargazers_count}</span>
-            <span class="stat"><i class="fas fa-code-branch"></i> ${repo.forks_count}</span>
+         <div class="date-container">
+            <div id="date"></div>
+            <a href="https://github.com/hexakleo" target="_blank"
+               class="social-icon">
+               <i class="fab fa-github"></i>
+            </a>
          </div>
       </main>
 
