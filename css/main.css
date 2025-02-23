@@ -4,10 +4,8 @@ resume: gfonts, roots, responsive, social links,
 date, canvas, dark theme, cursor, animations. 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
 
 :root {
    --color-bg-primary: #1a1a1a;
@@ -50,7 +48,7 @@ body {
    pointer-events: none;
    z-index: 9999;
    transform: translate(-50%, -50%);
-   /* Center the cursor */
+   /* center the cursor */
    transition: transform 0.1s ease;
    mix-blend-mode: difference;
 }
@@ -86,12 +84,13 @@ main {
    position: absolute;
    inset: -2px;
    background: linear-gradient(45deg,
-         rgba(255, 0, 0, 0.8),
-         rgba(255, 255, 0, 0.8),
-         rgba(0, 255, 0, 0.8),
-         rgba(0, 255, 255, 0.8),
-         rgba(0, 0, 255, 0.8),
-         rgba(255, 0, 0, 0.8));
+         rgba(255, 0, 0, 0.8)        ,
+         rgba(255, 255, 0, 0.8)      ,
+         rgba(0, 255, 0, 0.8)        ,
+         rgba(0, 255, 255, 0.8)      ,
+         rgba(0, 0, 255, 0.8)        ,
+         rgba(255, 0, 0, 0.8)
+   );
    background-size: 200% 200%;
    z-index: -1;
    border-radius: inherit;
@@ -173,7 +172,7 @@ main {
    opacity: 0.7;
    transition: all var(--transition-speed) ease;
    pointer-events: none;
-   /* Initially disabled */
+   /* initially disabled */
 }
 
 .enter-text.enabled {
