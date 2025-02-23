@@ -44,12 +44,12 @@ document.addEventListener(
      let selectedLanguage =
         localStorage
         .getItem(
-           'language'
+           'hexa_lang'
         );
      const hasVisited =
         localStorage
         .getItem(
-           'hasVisited'
+           'hexa_visited'
         );
      document.addEventListener(
         'mousemove', (
@@ -66,7 +66,7 @@ document.addEventListener(
      function handleEnter() {
         localStorage
            .setItem(
-              'hasVisited', 'true'
+              'hexa_visited', 'true'
            );
         enterScreen
            .style
@@ -120,7 +120,7 @@ document.addEventListener(
                     .lang;
                  localStorage
                     .setItem(
-                       'language', selectedLanguage
+                       'hexa_lang', selectedLanguage
                     );
                  languageSelector
                     .style
