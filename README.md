@@ -5,18 +5,15 @@
 > ngl just a clean af personal website
 
 [![Deploy](https://img.shields.io/github/deployments/hexakleo/hexakleo.github.io/github-pages?style=flat-square&label=deploy)](https://hexakleo.github.io)
-
 </div>
 
 ## download
-
 ```bash
 git clone https://github.com/hexakleo/hexakleo.github.io.git
 cd hexakleo.github.io && open index.html
 ```
 
 ## usage
-
 ```typescript
 interface hexa {
   entry: () => void;
@@ -32,7 +29,6 @@ const start: HexaUI = {
 ```
 
 ## struct
-
 ```
 hexa-ui/
 ├──  index.html           // main entry
