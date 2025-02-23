@@ -5,7 +5,6 @@
 > ngl just a clean af personal website
 
 [![Deploy](https://img.shields.io/github/deployments/hexakleo/hexakleo.github.io/github-pages?style=flat-square&label=deploy)](https://hexakleo.github.io)
-[![Made with](https://img.shields.io/badge/made_with-❤️-ff69b4?style=flat-square)](https://github.com/hexakleo)
 
 </div>
 
